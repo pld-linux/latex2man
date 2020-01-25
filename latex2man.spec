@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Latex2man - translate UNIX manual pages written with LaTeX
 Summary(pl.UTF-8):	Latex2man - tłumaczenie uniksowych stron podręcznika napisanych w LaTeXu
 Name:		latex2man

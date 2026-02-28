@@ -9,6 +9,7 @@ Source0:	http://mirror.ctan.org/support/%{name}.zip
 # Source0-md5:	2b170c92f2e7a70fc29c7e53b8d6f459
 URL:		ftp://tug.ctan.org/pub/tex-archive/help/Catalogue/entries/latex2man.html
 BuildRequires:	rpm-perlprov
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	sed >= 4.0
 Requires(post,postun):	/usr/bin/texhash
 Requires:	perl-base

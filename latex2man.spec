@@ -14,6 +14,7 @@ BuildRequires:	sed >= 4.0
 Requires(post,postun):	/usr/bin/texhash
 Requires:	perl-base
 Requires:	texlive-latex
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		texhash umask 022; [ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2;

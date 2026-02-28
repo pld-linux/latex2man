@@ -2,12 +2,12 @@ Summary:	Latex2man - translate UNIX manual pages written with LaTeX
 Summary(pl.UTF-8):	Latex2man - tłumaczenie uniksowych stron podręcznika napisanych w LaTeXu
 Name:		latex2man
 Version:	1.26
-Release:	2
+Release:	3
 License:	LaTeX Project Public License
 Group:		Applications/Text
 Source0:	http://mirror.ctan.org/support/%{name}.zip
 # Source0-md5:	2b170c92f2e7a70fc29c7e53b8d6f459
-URL:		ftp://tug.ctan.org/pub/tex-archive/help/Catalogue/entries/latex2man.html
+URL:		https://www.informatik-vollmer.de/software/latex2man.php
 BuildRequires:	rpm-perlprov
 BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	sed >= 4.0
